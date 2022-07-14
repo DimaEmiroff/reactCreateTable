@@ -1,3 +1,6 @@
+import './data.css'
+import ButtonOnLoad from "../IsMove/buttonOnLoad/ButtonOnLoad";
+import ButtonDel from "../IsMove/buttonDelete/ButtonDel";
 //----array users
 export const arrUser = [
     {
@@ -6,8 +9,9 @@ export const arrUser = [
         phone: '8_(800)_111_11_11',
         email: 'denisvr@ya.ru',
         country: 'USA',
-        age: '22 y.o.'
-
+        age: '22 y.o.',
+        onLoad: <ButtonOnLoad/>,
+        delete: <ButtonDel/>
     },
     {
         id: 2,
@@ -15,7 +19,9 @@ export const arrUser = [
         phone: '8_(800)_222_22_22',
         email: 'pashsvr@ya.ru',
         country: 'Russia',
-        age: '19 y.o.'
+        age: '19 y.o.',
+        onLoad: <ButtonOnLoad/>,
+        delete: <ButtonDel/>
     },
     {
         id: 3,
@@ -23,7 +29,9 @@ export const arrUser = [
         phone: '8_(800)_333_33_33',
         email: 'vaniavr@ya.ru',
         country: 'Austria',
-        age: '25 y.o.'
+        age: '25 y.o.',
+        onLoad: <ButtonOnLoad/>,
+        delete: <ButtonDel/>
     },
     {
         id: 4,
@@ -31,7 +39,9 @@ export const arrUser = [
         phone: '8_(800)_444_44_44',
         email: 'alenavr@ya.ru',
         country: 'USA',
-        age: '21 y.o.'
+        age: '21 y.o.',
+        onLoad: <ButtonOnLoad/>,
+        delete: <ButtonDel/>
     },
     {
         id: 5,
@@ -39,6 +49,9 @@ export const arrUser = [
         phone: '8_(800)_555_55_55',
         email: 'vikavr@ya.ru',
         country: 'Russia',
-        age: '27 y.o.'
+        age: '27 y.o.',
+        onLoad: <ButtonOnLoad/>,
+        delete: <ButtonDel/>
+
     },
 ];

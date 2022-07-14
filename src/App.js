@@ -1,16 +1,10 @@
 import React from "react";
-
-import GetListUsersPage from "./coding/listUser/listUsersPage.js";
-
-
+import CreateTable, {field} from "./coding/createTableUser/table/CreateTable";
+import {arrUser} from "./coding/data/data";
 
 function App() {
   return (
-    <main>
-
-        <GetListUsersPage/>
-
-    </main>
+    <CreateTable/>
   );
 }
 
