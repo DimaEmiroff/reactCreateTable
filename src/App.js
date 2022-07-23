@@ -1,10 +1,10 @@
 import React from "react";
-import CreateTable, {field} from "./coding/createTableUser/table/CreateTable";
-import {arrUser} from "./coding/data/data";
+import Table from "./coding/createTableUser/table/table";
+
 
 function App() {
   return (
-    <CreateTable/>
+    <Table/>
   );
 }
 

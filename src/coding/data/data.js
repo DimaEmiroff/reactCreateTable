@@ -1,7 +1,6 @@
 import './data.css'
 import ButtonOnLoad from "../IsMove/buttonOnLoad/ButtonOnLoad";
-import ButtonDel from "../IsMove/buttonDelete/ButtonDel";
-//----array users
+
 export const arrUser = [
     {
         id: 1,
@@ -11,7 +10,6 @@ export const arrUser = [
         country: 'USA',
         age: '22 y.o.',
         onLoad: <ButtonOnLoad/>,
-        delete: <ButtonDel/>
     },
     {
         id: 2,
@@ -21,7 +19,6 @@ export const arrUser = [
         country: 'Russia',
         age: '19 y.o.',
         onLoad: <ButtonOnLoad/>,
-        delete: <ButtonDel/>
     },
     {
         id: 3,
@@ -31,7 +28,6 @@ export const arrUser = [
         country: 'Austria',
         age: '25 y.o.',
         onLoad: <ButtonOnLoad/>,
-        delete: <ButtonDel/>
     },
     {
         id: 4,
@@ -41,7 +37,6 @@ export const arrUser = [
         country: 'USA',
         age: '21 y.o.',
         onLoad: <ButtonOnLoad/>,
-        delete: <ButtonDel/>
     },
     {
         id: 5,
@@ -51,7 +46,5 @@ export const arrUser = [
         country: 'Russia',
         age: '27 y.o.',
         onLoad: <ButtonOnLoad/>,
-        delete: <ButtonDel/>
-
     },
 ];

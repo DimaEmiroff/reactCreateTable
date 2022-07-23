@@ -1,20 +1,14 @@
-.module_thead {
-  border: 1px solid black;
-  background: antiquewhite;
+.module_thead_th_btn {
+  border: none;
+  background: none;
+}
+.module_thead_th_btn:after{
+  content: '↕';
+  display: inline-block;
+  margin-left: 1em;
+}
 
-  &_th {
-    border-bottom: 1px solid;
-    border-right: 1px solid;
-    width: 100px;
-    &_btn{
-      background: none;
-      border: none;
-    }
-    &_btn:after{
-      content: '↕';
-      display: inline-block;
-      margin-left: 1em;
-    }
-  }
+button.down{
+  background: red;
 
 }
