@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 
-const SortedData = (data) => {
+const useSortedData = (data) => {
     const [tableData, setTableData] = useState(data);
         const handleSorting = (sortData, sortOrder) => {
             if (sortData) {
@@ -20,4 +20,4 @@ const SortedData = (data) => {
         return ([tableData, handleSorting])
     };
 
-export default SortedData;
+export default useSortedData;

@@ -11,7 +11,7 @@ const TableRow = ({ item, handleDeleteClick }) => {
                 <td>{item.email}</td>
                 <td>{item.country}</td>
                 <td>{item.age}</td>
-                <td><button type={'button'} onClick={() => handleDeleteClick(item.id)}>remove</button></td>
+                <td><button type={'button'} onClick={() => handleDeleteClick(item.id)}>Remove</button></td>
             </tr>
          </tbody>
     );

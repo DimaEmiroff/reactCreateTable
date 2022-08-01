@@ -10,4 +10,12 @@
   background: antiquewhite;
   width: 100px;
 }
-
+.module_table__sort {
+  border: none;
+  background: none;
+}
+.module_table__sort:after{
+  content: '↕';
+  display: inline-block;
+  margin-left: 1em;
+}

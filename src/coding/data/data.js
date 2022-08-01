@@ -1,5 +1,3 @@
-import './data.css'
-import ButtonOnLoad from "../IsMove/buttonOnLoad/ButtonOnLoad";
 
 export const arrUser = [
     {
@@ -9,7 +7,6 @@ export const arrUser = [
         email: 'denisvr@ya.ru',
         country: 'USA',
         age: '22 y.o.',
-        onLoad: <ButtonOnLoad/>,
     },
     {
         id: 2,
@@ -18,7 +15,6 @@ export const arrUser = [
         email: 'pashsvr@ya.ru',
         country: 'Russia',
         age: '19 y.o.',
-        onLoad: <ButtonOnLoad/>,
     },
     {
         id: 3,
@@ -27,7 +23,6 @@ export const arrUser = [
         email: 'vaniavr@ya.ru',
         country: 'Austria',
         age: '25 y.o.',
-        onLoad: <ButtonOnLoad/>,
     },
     {
         id: 4,
@@ -36,7 +31,6 @@ export const arrUser = [
         email: 'alenavr@ya.ru',
         country: 'USA',
         age: '21 y.o.',
-        onLoad: <ButtonOnLoad/>,
     },
     {
         id: 5,
@@ -45,6 +39,5 @@ export const arrUser = [
         email: 'vikavr@ya.ru',
         country: 'Russia',
         age: '27 y.o.',
-        onLoad: <ButtonOnLoad/>,
     },
 ];
